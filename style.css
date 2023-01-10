@@ -1,0 +1,103 @@
+/* Color Theme Swatches in Hex */
+
+:root {
+    --color-fondo: #F0F0F2;
+    --color-principal: #0fa2c4;
+    --color-texto: #F0F0F2;
+    --color-secundario: #0fa2c4;
+    --color-terciario: #0367A6;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Texto*/
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: var(--color-principal);
+    font-size: xx-large;
+}
+
+h2 {
+    color: var(--color-principal);
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
+    font-family: 'Ubuntu', sans-seif;
+}
+
+/*Contenedores*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    background-image: url("https://www.bancomundial.org/content/dam/photos/780x439/2020/apr/COVID19-1920-2b--2-.jpg");
+    background-size: 110%;
+}
+
+div {
+    padding: 0 10px 0 10px;
+}
+
+article {
+    background-color: var(--color-principal);
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2%;
+}
+
+section#cargaPacientes {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    justify-content: space-evenly;
+}
+
+#section-pacientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+/*Componentes*/
+form {
+    background-color: var(--color-terciario);
+}
+
+form.mb-3.pb-3 {
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+article.paciente {
+    border-radius: 5px;
+}
+
+.button-menu{
+    padding: 7px;
+    background-color: #AECCF2;
+    text-decoration: none;
+
+}
+
